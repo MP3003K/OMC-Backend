@@ -32,7 +32,7 @@ class Server {
             await db.authenticate()
             console.log('DB OK!!')
 
-        } catch( error ) {
+        } catch( error: any | undefined ) {
             
             throw new Error(error)            
         

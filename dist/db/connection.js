@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const sequelize_1 = require("sequelize");
-const db = new sequelize_1.Sequelize('bzt73epcfgoa9d7l57nd', 'upgkcuvtboluyx3v', 'ysQE3KEa56zSNw88wrr0', {
-    host: 'bzt73epcfgoa9d7l57nd-mysql.services.clever-cloud.com',
+const db = new sequelize_1.Sequelize('bjtd5ucjevvqsjgw7cvh', 'ub20zp0yqq4rpl3h', 'tBgM0K3fG2av2QLTzfIe', {
+    host: 'bjtd5ucjevvqsjgw7cvh-mysql.services.clever-cloud.com',
     dialect: 'mysql',
     //logging: false
 });
