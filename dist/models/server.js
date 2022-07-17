@@ -24,7 +24,7 @@ class Server {
             auth: '/api/auth'
         };
         this.app = express_1.default();
-        this.port = process.env.PORT || '8080';
+        this.port = process.env.PORT || '4000';
         this.dbConnection();
         this.middlewares();
         this.routes();
